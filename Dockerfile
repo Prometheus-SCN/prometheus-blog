@@ -9,5 +9,5 @@ RUN git clone https://github.com/Prometheus-SCN/prometheus-blog
 WORKDIR prometheus-blog
 ENV NODE_ENV production
 CMD  ["node", "ghost-server.js"]
-EXPOSE 8081
+EXPOSE 80
 
