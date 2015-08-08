@@ -7,6 +7,7 @@ ENV PATH $PATH:/nodejs/bin
 
 RUN git clone https://github.com/Prometheus-SCN/prometheus-blog
 WORKDIR prometheus-blog
-CMD  ["NODE_ENV=production", "node", "ghost-server.js"]
+ENV NODE_ENV production
+CMD  ["node", "ghost-server.js"]
 EXPOSE 8081
 
