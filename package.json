@@ -1,0 +1,7 @@
+{
+  "name": "Prometheus_Blog",
+  "version": "0.0.1",
+   "dependencies": {
+   "ghost": "^0.5.10"
+  }
+}
